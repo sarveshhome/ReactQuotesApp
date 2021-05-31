@@ -5,7 +5,7 @@ import classes from './Comments.module.css';
 import NewCommentForm from './NewCommentForm';
 import useHttp from '../../hooks/use-http';
 import { getAllComments } from '../../lib/api';
-import LoadingSpinner from '../UI/LoadingSpinner';
+import LoadingSpinner from '../ui/LoadingSpinner';
 import CommentsList from './CommentsList';
 
 const Comments = () => {
